@@ -1,0 +1,75 @@
+2024-09-23 14:34:01.643 [main] INFO  org.example.Main - Application execution started
+2024-09-23 14:34:13.824 [main] INFO  org.example.Main - Executing Multiplication
+2024-09-23 14:34:13.830 [main] INFO  org.example.Main - Multiplication Result: 25.44
+2024-09-23 14:34:20.507 [main] INFO  org.example.Main - Application execution finished
+2024-09-23 15:30:18.299 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 15:30:18.302 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 15:30:18.304 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 15:30:18.305 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 15:30:18.305 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 15:30:18.306 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 15:30:18.307 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 15:30:18.307 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:11:01.931 [main] INFO  org.example.Main - Application execution started
+2024-09-23 20:11:13.404 [main] INFO  org.example.Main - Executing Subtraction
+2024-09-23 20:11:13.410 [main] INFO  org.example.Main - Subtraction Result: 2.0
+2024-09-23 20:11:15.755 [main] INFO  org.example.Main - Application execution finished
+2024-09-23 20:11:25.056 [main] INFO  org.example.Main - Application execution started
+2024-09-23 20:15:07.946 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:15:07.959 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 20:15:07.959 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 20:15:07.960 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:15:07.961 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:15:07.961 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 20:15:07.962 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 20:15:07.963 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:39:34.398 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:39:34.400 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 20:39:34.401 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 20:39:34.402 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:39:34.402 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:39:34.402 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 20:39:34.402 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 20:39:34.403 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:45:10.478 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:45:10.480 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 20:45:10.480 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 20:45:10.480 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:45:10.481 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:45:10.481 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 20:45:10.481 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 20:45:10.481 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:50:42.823 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:50:42.825 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 20:50:42.825 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 20:50:42.825 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:50:42.825 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:50:42.826 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 20:50:42.826 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 20:50:42.826 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:53:26.122 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:53:26.124 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 20:53:26.125 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 20:53:26.125 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 20:53:26.126 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 20:53:26.126 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 20:53:26.126 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 20:53:26.126 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 21:24:09.271 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 21:24:09.272 [main] INFO  org.example.Main - Addition Result: 4.0
+2024-09-23 21:24:09.273 [main] INFO  org.example.Main - Subtraction Result: 8.0
+2024-09-23 21:24:09.273 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-23 21:24:09.274 [main] INFO  org.example.Main - Division Result: 5.0
+2024-09-23 21:24:09.274 [main] INFO  org.example.Main - Addition Result: 6.0
+2024-09-23 21:24:09.274 [main] INFO  org.example.Main - Subtraction Result: 6.0
+2024-09-23 21:24:09.274 [main] INFO  org.example.Main - Multiplication Result: 12.0
+2024-09-24 00:36:04.682 [main] INFO  org.example.Main - Square root result: 3.0
+2024-09-24 00:36:04.690 [main] INFO  org.example.Main - Factorial result: 120
+2024-09-24 00:36:04.690 [main] INFO  org.example.Main - Factorial result: 120
+2024-09-24 00:36:04.691 [main] INFO  org.example.Main - Natural logarithm result: 1.0
+2024-09-24 00:36:04.691 [main] INFO  org.example.Main - Power operation result: 8.0
+2024-09-24 00:36:04.692 [main] INFO  org.example.Main - Power operation result: 8.0
+2024-09-24 00:36:04.692 [main] INFO  org.example.Main - Square root result: 3.0
+2024-09-24 00:36:04.692 [main] INFO  org.example.Main - Natural logarithm result: 1.0
+2024-09-24 00:36:04.693 [main] ERROR org.example.Main - Error: Square root of a negative number is not defined. Input: -9.0
+2024-09-24 00:36:04.694 [main] ERROR org.example.Main - Error: Logarithm of a non-positive number is not defined. Input: 0.0
