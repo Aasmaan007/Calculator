@@ -1,24 +1,11 @@
----
 - name: Pull Docker Image of Calculator
-  hosts: all
-  vars:
-    ansible_python_interpreter: /usr/bin/python3.8
+  hosts: host_machine
   tasks:
-    - name: Pull image from Docker Hub
-      docker_image:
-        name: jacobkick/calculator
-        tag: latest
-        source: pull
+    - name: removing old containers
+      shell: if docker ps -aq -f "name=calculator" | grep -q .; then docker ps -aq -f "name=calculator" | xargs docker stop; docker ps -aq -f "name=calculator" | xargs docker rm; else echo "No containers with the name 'calculator' found."; fi
 
-    - name: Start Docker service
-      service:
-        name: docker
-        state: started
+    - name: Pull image
+      shell: docker pull aasmaan1/calculator:latest
 
-    - name: Run Docker container
-      docker_container:
-        name: Calculator
-        image: aasmaan1/calculator:latest
-        state: started
-        restart_policy: always
-        detach: true
+    - name: Run container
+      shell: docker run -i -t --name calculator -d aasmaan1/calculator
