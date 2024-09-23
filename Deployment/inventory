@@ -1,1 +1,2 @@
+[host_machine]
 localhost ansible_user = aasmaan
