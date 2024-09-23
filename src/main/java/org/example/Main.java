@@ -16,23 +16,31 @@ public class Main {
         log.info("Application execution started");
 
         System.out.println("---- Scientific Calculator ----");
+        System.out.flush(); // Force output to show immediately
 
         while (!shouldExit) {
             showMenu();
+            System.out.flush(); // Flush the output for menu display
+
             selection = input.nextInt();
+            input.nextLine(); // Consume the newline
 
             if (selection == 5) {
                 shouldExit = true;
                 System.out.println("Goodbye! Exiting now.");
+                System.out.flush(); // Flush the output for goodbye message
                 log.info("Exiting the calculator");
             } else {
                 if (selection == 1) { // Power needs two operands
                     System.out.print("Enter the base number: ");
+                    System.out.flush(); // Flush output immediately
                     operand1 = input.nextDouble();
                     System.out.print("Enter the exponent: ");
+                    System.out.flush(); // Flush output immediately
                     operand2 = input.nextDouble();
                 } else { // All others need one operand
                     System.out.print("Enter the number: ");
+                    System.out.flush(); // Flush output immediately
                     operand1 = input.nextDouble();
                 }
 
@@ -58,11 +66,13 @@ public class Main {
                     default:
                         log.error("Invalid selection: " + selection);
                         System.out.println("Invalid option! Please choose a valid option.");
+                        System.out.flush(); // Flush output immediately
                         continue;
                 }
 
                 if (selection >= 1 && selection <= 4) {
                     System.out.println("Result: " + result);
+                    System.out.flush(); // Flush output for result
                     log.info("Operation Result: " + result);
                 }
             }
@@ -80,6 +90,7 @@ public class Main {
         System.out.println("4. Natural Logarithm");
         System.out.println("5. Exit");
         System.out.print("Your choice: ");
+        System.out.flush(); // Flush output for menu
     }
 
     public static double power(double base, double exponent) {
@@ -92,6 +103,7 @@ public class Main {
         if (number < 0) {
             log.error("Error: Square root of a negative number is not defined. Input: " + number);
             System.out.println("Error: Square root of a negative number is not defined.");
+            System.out.flush();
             return Double.NaN;
         }
         double result = Math.sqrt(number);
@@ -103,6 +115,7 @@ public class Main {
         if (number < 0) {
             log.error("Error: Factorial of a negative number is not defined. Input: " + number);
             System.out.println("Error: Factorial of a negative number is not defined.");
+            System.out.flush();
             return -1;
         }
         long result = 1;
@@ -117,6 +130,7 @@ public class Main {
         if (number <= 0) {
             log.error("Error: Logarithm of a non-positive number is not defined. Input: " + number);
             System.out.println("Error: Logarithm of a non-positive number is not defined.");
+            System.out.flush();
             return Double.NaN;
         }
         double result = Math.log(number);

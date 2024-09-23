@@ -73,3 +73,6 @@
 2024-09-24 00:36:04.692 [main] INFO  org.example.Main - Natural logarithm result: 1.0
 2024-09-24 00:36:04.693 [main] ERROR org.example.Main - Error: Square root of a negative number is not defined. Input: -9.0
 2024-09-24 00:36:04.694 [main] ERROR org.example.Main - Error: Logarithm of a non-positive number is not defined. Input: 0.0
+2024-09-24 00:47:46.105 [main] INFO  org.example.Main - Application execution started
+2024-09-24 00:47:51.310 [main] INFO  org.example.Main - Exiting the calculator
+2024-09-24 00:47:51.311 [main] INFO  org.example.Main - Application execution finished
