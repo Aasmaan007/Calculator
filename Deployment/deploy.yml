@@ -1,0 +1,24 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3.8
+  tasks:
+    - name: Pull image from Docker Hub
+      docker_image:
+        name: jacobkick/calculator
+        tag: latest
+        source: pull
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+
+    - name: Run Docker container
+      docker_container:
+        name: Calculator
+        image: aasmaan1/calculator:latest
+        state: started
+        restart_policy: always
+        detach: true
