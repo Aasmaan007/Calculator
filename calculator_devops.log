@@ -76,3 +76,13 @@
 2024-09-24 00:47:46.105 [main] INFO  org.example.Main - Application execution started
 2024-09-24 00:47:51.310 [main] INFO  org.example.Main - Exiting the calculator
 2024-09-24 00:47:51.311 [main] INFO  org.example.Main - Application execution finished
+2024-09-25 00:01:41.449 [main] INFO  org.example.Main - Square root result: 3.0
+2024-09-25 00:01:41.454 [main] INFO  org.example.Main - Factorial result: 120
+2024-09-25 00:01:41.454 [main] INFO  org.example.Main - Factorial result: 120
+2024-09-25 00:01:41.455 [main] INFO  org.example.Main - Natural logarithm result: 1.0
+2024-09-25 00:01:41.455 [main] INFO  org.example.Main - Power operation result: 8.0
+2024-09-25 00:01:41.456 [main] INFO  org.example.Main - Power operation result: 8.0
+2024-09-25 00:01:41.456 [main] INFO  org.example.Main - Square root result: 3.0
+2024-09-25 00:01:41.457 [main] INFO  org.example.Main - Natural logarithm result: 1.0
+2024-09-25 00:01:41.457 [main] ERROR org.example.Main - Error: Square root of a negative number is not defined. Input: -9.0
+2024-09-25 00:01:41.458 [main] ERROR org.example.Main - Error: Logarithm of a non-positive number is not defined. Input: 0.0
