@@ -13,7 +13,10 @@
       service:
         name: docker
         state: started
-
+    - name: Stop and remove container
+      shell: |
+        docker stop Calculator
+        docker rm Calculator
     - name: Running container
       shell: docker run -it -d --name Calculator aasmaan1/calculator
 #heheklkm
